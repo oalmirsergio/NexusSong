@@ -1,0 +1,3 @@
+[submodule "VisualizacaoDadosMatplotlib"]
+	path = VisualizacaoDadosMatplotlib
+	url = https://github.com/ecaf1/visualizacao-dados-matplotlib.git
