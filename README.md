@@ -1,5 +1,5 @@
-# NexusSong 🎼 🎹 🎸
-###### O futuro é a música!
+# 🎸 NexusSong  🎹 
+###### 🎼 O futuro é a música!
 ## Introdução
 
 Este projeto foi realizado com fins acadêmicos na matéria de prática e pesquisa do NES (Novo Ensino Suplementar).
