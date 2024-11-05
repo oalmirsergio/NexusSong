@@ -18,9 +18,8 @@ def criar_hist():
     plt.title("Distribuição de Compartilhamentos por Gênero")
     plt.xlabel("Número de Compartilhamentos")
     plt.ylabel("Frequência")
-    plt.savefig('grafico1.gif')
     plt.show()
-criar_hist()
+
 # Boxplot de popularidade (share_count) por gênero para identificar outliers
 
 def criar_boxplot():
@@ -31,9 +30,8 @@ def criar_boxplot():
     plt.title("Distribuição de Compartilhamentos por Gênero (Boxplot)")
     plt.xlabel("Gênero")
     plt.ylabel("Número de Compartilhamentos")
-    plt.savefig('grafico2.png')
+
     return plt.show()
-criar_boxplot()
 
 # Gráfico de Barras: Distribuição de músicas por gênero
 def criar_barras_genero():
@@ -45,7 +43,7 @@ def criar_barras_genero():
     plt.title("Distribuição de Músicas por Gênero")
     plt.xlabel("Gênero")
     plt.ylabel("Número de Músicas")
-    plt.savefig('grafico3.png')
+
     return plt.show()
 
 
@@ -56,7 +54,7 @@ def criar_pizza():
     plt.figure(figsize=(8, 8))
     plt.pie(genre_counts, labels=genre_counts.index, autopct='%1.1f%%', startangle=140)
     plt.title("Distribuição Percentual de Músicas por Gênero")
-    plt.savefig('grafico4.png')
+
     return plt.show()
 
 # Analisando a popularidade de cada música por gênero
@@ -72,7 +70,7 @@ def analisar_popularidade():
     plt.ylabel('Duração Média dos Streams (segundos)')
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig('grafico5.png')
+
     return plt.show()
 
 # Analisando as músicas de estilos muito ouvidos
@@ -95,7 +93,7 @@ def analisar_outliers():
     plt.ylabel('Duração do Stream (segundos)')
     plt.legend()
     plt.tight_layout()
-    plt.savefig('grafico6.png')
+
     return plt.show(), outliers
 
 # Analisando os estilos mais ouvidos mês a mês
@@ -121,7 +119,7 @@ def analisar_sazolalidade_mes():
     plt.ylabel("Duração Média (segundos)")
     plt.legend(title="Gênero")
     plt.grid(True)
-    plt.savefig('grafico7.png')
+
     return plt.show()
 
 # Analisando os feriados mais importantes, sendo 3 internacionais, um mais forte nos EUA e outro mais forte no Brasil
@@ -164,7 +162,7 @@ def plot_holiday_popularity(data, holiday_column, month, holiday_name):
     plt.legend(title="Gênero", bbox_to_anchor=(1.05, 1), loc='upper left')
     # Exibir o gráfico
     plt.tight_layout()
-    plt.savefig('grafico8.png')
+
     plt.show()
 
 # Analisando os horários mais utilizados:
@@ -196,7 +194,7 @@ def verificar_horarios():
     plt.legend()
 
     # Mostrar o gráfico
-    plt.savefig('grafico9.png')
+
     return plt.show()
 
 # Analisando estilos mais populares por faixa etária:
@@ -267,7 +265,7 @@ def barras_faixa_etaria():
         plt.ylabel('Frequência')
         plt.xticks(rotation=45)
         plt.tight_layout()
-    plt.savefig('grafico10.png')
+
     plt.show()
 
 # Analisemos as corelações entre os estilos mais tocados
@@ -287,7 +285,7 @@ def gerar_heatmap():
     plt.figure(figsize=(8, 6))
     sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt=".2f")
     plt.title("Heatmap de Correlação das Variáveis de Música")
-    plt.savefig('grafico11.png')
+
     return plt.show()
 
 def gerar_grafico_de_dispersao():
@@ -322,7 +320,7 @@ def gerar_grafico_de_dispersao():
         plt.legend(title="Gênero", bbox_to_anchor=(1.05, 1), loc='upper left')
         plt.grid(True)
         plt.tight_layout()  # Ajusta o layout para evitar sobreposição
-    plt.savefig('grafico12.png')
+
     return plt.show()  # Exibir o gráfico
 
 # 1. Gráfico de linha mostrando tendências de popularidade ao longo do tempo
@@ -337,7 +335,7 @@ def gerar_num_stream_datas():
     plt.ylabel('Número de Streams')
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig('grafico13.png')
+
     return plt.show()
 
 # 2. Análise de plataformas mais utilizadas
@@ -351,7 +349,7 @@ def gerar_plataforma_mais_utilizadas():
     plt.ylabel('Número de Streams')
     plt.xticks(rotation=0)
     plt.tight_layout()
-    plt.savefig('grafico14.png')
+
     return plt.show()
 
 # 3. Análise dos dispositivos mais utilizados
@@ -365,7 +363,7 @@ def gerar_dispositivos_mais_utilizados():
     plt.ylabel('Número de Streams')
     plt.xticks(rotation=0)
     plt.tight_layout()
-    plt.savefig('grafico15.png')
+
     return plt.show()
 
 # 4. Análise da qualidade de streaming mais utilizada
@@ -379,5 +377,5 @@ def gerar_qualidade_mais_utilizada():
     plt.ylabel('Número de Streams')
     plt.xticks(rotation=0)
     plt.tight_layout()
-    plt.savefig('grafico16.png')
+
     return plt.show()

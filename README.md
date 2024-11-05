@@ -1,4 +1,4 @@
 # NexusSong
 
 This is a work for POO NES
-<img src="grafico1.gif">
+![grafico1](imagens/grafico1.png)
