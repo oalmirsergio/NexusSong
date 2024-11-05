@@ -1,3 +1,7 @@
+# Gráficos para a análise:
+
+# Import de bibliotecas
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
