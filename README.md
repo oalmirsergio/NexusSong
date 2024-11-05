@@ -152,7 +152,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 ### Membros do grupo e suas respectivas responsabilidades:
 
 Almir Sérgio - Códigos e repositório.
-##### Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 12 horas.
+##### Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 12 horas.
 
 Cecília Cristina - Relatório do projeto e edição do vídeo.
 
