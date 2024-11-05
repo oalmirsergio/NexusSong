@@ -1,11 +1,26 @@
-# NexusSong
-
+# NexusSong 🎼 🎹 🎸
+###### O futuro é a música!
 ## Introdução
 
 Este projeto foi realizado com fins acadêmicos na matéria de prática e pesquisa do NES (Novo Ensino Suplementar).
 Neste projeto, iremos analisar os dados encontrados em um arquivo csv que tratam dos dados de um streaming de música.
 
-## Resultados:
+
+## Objetivos
+
+### *Oportunidade*
+
+### *Contexto de mercado*
+
+## Visão Geral
+
+### *Possível investimento*
+
+### *Potencial de mercado*
+
+### *Investimento necessário*
+
+## Dados Encontrados e análises
 
 ### Distribuição de compartilhamentos por gênero musical.
 ![grafico1](imagens/grafico1.png)
@@ -111,3 +126,38 @@ Neste projeto, iremos analisar os dados encontrados em um arquivo csv que tratam
 
 ### Qualidade de streaming mais utilizada
 ![grafico35](imagens/grafico35.png)
+
+## Conclusões
+
+### *Potencial de mercado*
+
+### *Retorno esperado*
+
+### *Investimento necessário*
+
+## Resultado geral
+
+### Vídeo do projeto:
+
+## AGRADECIMENTOS
+
+Agradecemos aos professores Felipe Adeildo e Edeilson Filho pela oportunidade de trabalharmos com análise de dados.
+
+Agradecemos aos criadores das bibliotecas python matplotlib, seaborn, numpy e pandas, sem o auxílio destes pacotes, este projeto não seria possível.
+
+Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de estudar tais conteúdos ainda no ensino médio. De certo que será muito valioso para nossa carreira profissional no futuro.
+
+##  Dados do trabalho
+
+### Membros do grupo e suas respectivas responsabilidades:
+
+Almir Sérgio - Códigos e repositório.
+##### Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 9 horas.
+
+Cecília Cristina - Relatório do projeto e edição do vídeo.
+
+Roberta Santos - Roteiro e gravação do vídeo.
+
+### Relatório do trabalho:
+
+## Este trabalho foi produzido pelo grupo NexusSong, e orientado pelos professores Edeilson Filho e Felipe Adeildo.
