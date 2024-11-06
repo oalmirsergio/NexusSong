@@ -8,72 +8,140 @@ Neste projeto, iremos analisar os dados encontrados em um arquivo csv que tratam
 
 ## Objetivos
 
-### *Oportunidade*
+Esta análise tem por objetivo identificar uma proposta de investimento promissora que gere lucros, através dos dados iremos verificar qual gênero musical e estilo mais popular atualmente.
 
 ### *Contexto de mercado*
+
+O mercado de serviço de streaming de música é um dos mercados que mais crescem nos últimos anos, este mercado já disputa com o mercado de shows ao vivo por um lugar no consumo mundial de entretenimento. O mercado de streaming é extremamente promissor pois com a evolução tecnológica, o abandono do mundo físico e a substituição do mundo físico pelo mundo digital a tendência é de que os serviços de streaming tomem conta de todo o mercado e criem uma hegemonia forte.
+
+### *Oportunidade*
+
+Investir neste mercado ainda em ascensão é investir e garantir um espaço em um mercado que irá predominar nos próximos anos, um mercado que além de ter um custo reduzido em comparação ao mercado de shows ao vivo possui uma margem de lucro consideravelmente maior, visto que o acesso é maior.
+
+O lançamento de músicas sempre foi algo custoso, lançar músicas diretamente em serviços de streaming possui baixo custo em comparação ao lançamento de mídias físicas, o alcance dessas músicas é maior, conquistar patrocinadores se torna mais acessível pela maior visibilidade, e portanto a margem de lucro tende a ser maior.
 
 ## Visão Geral
 
 ### *Possível investimento*
 
+O lançamento de músicas diretamente para o streaming.
+
 ### *Potencial de mercado*
 
+Alto potencial de mercado, pela alta visibilidade, baixo custo de investimento e lucros que chamam a atenção.
+
 ### *Investimento necessário*
+
+A prióre o investimento necessário é apenas o custo de produção da faixa, a publicação na rede de streaming e a divulgação.
 
 ## Dados Encontrados e análises
 
 ### Distribuição de compartilhamentos por gênero musical.
+
+Veja nos gráficos abaixo que o estilo musical mais compartilhado é o Pop, seguido pelo MPB e logo em seguida, o Rock. Isso demonstra que o público tem grande interesse em compartilhar músicas do gênero pop. os estilos MPB e Rock também possui consideráveis níveis de compartilhamento.
+
 ![grafico1](imagens/grafico1.png)
 
 ### Boxplot da distribuição de compartilhamentos por gênero.
+
+Veja que os estilos que apresentaram outliers de compartilhamentos foram o Rock, o MPB e o Hip-Hop, sendo este terceiro menos presente.
+
 ![grafico2](imagens/grafico2.png)
 
 ### Dados de distribuição de músicas por gênero - gráfico de barras
+
+Veja que nos gráficos a seguir, podemos verificar os gêneros musicais que mais predominam o top 10 de músicas mais ouvidas.
+
 ![grafico3](imagens/grafico3.png)
 
 ### Distribuição percentual de músicas por gênero
+
+Gráfico percentual de distribuição dos gêneros musicais das músicas mais ouvidas. Veja que o Rock predomina o ranking. Estilos como MPB e Jazz são de se atentar.
+
 ![grafico4](imagens/grafico4.png)
 
 ### Média de duração de streams por gênero
+
+Percebe-se que a reprodução de músicas eletrônicas tem maior tendência de durarem mais do que as demais. Seguida do Jazz e em sequência o Rock. Curioso notar que o Rock se faz presente ao mínimo no pódio das tabelas até agora.
+
 ![grafico5](imagens/grafico5.png)
 
 ### Identificação de outliers na duração de streams.
+
+Após cuidadosa análise foi constatado que os outliers em duração de streams se tratam de músicas do gênero eletrônico, em sua totalidade. Com isso, podemos concluir que o público tem maior tendência a ouvir músicas eletrônicas completas e por maior tempo.
+
 ![grafico6](imagens/grafico6.png)
 
 ### Popularidade mensal por gênero (duração média dos streams)
+
+Como comprovado pelo gráfico anterior, de maneira disparada a música eletrônica predomina o tempo de resolução dos usuários. Não esqueçamos do Rock, que se faz presente no pódio.
+
 ![grafico7](imagens/grafico7.png)
 
 ### Popularidade diária por gênero no natal
+
+A primeira vista, os gráficos a seguir podem parecer confusos, e de fato são. Veja que quando há descontinuidade em linhas é porque não houveram dados registrados neste determinado intervalo de tempo. Veja que na véspera de natal, e no dia de natal o estilo mais consumido foi o Jazz e em sequência o Rock, que por sua vez, este último disparou no aumento do consumo. Houve uma queda brusca no consumo de música eletrônica neste período.
+
 ![grafico8](imagens/grafico8.png)
 
 ### Popularidade diária por gênero no Ano Novo
+
+No dia de ano novo, o estilo musical mais consumido foi o Rock. Durante o mês houve uma gigantesca variação, onde a única certeza é que durante o restante do mês de janeiro, desconsiderando o feriado, o estilo mais consumido foi a música eletrônica.
+
 ![grafico9](imagens/grafico9.png)
 
 ### Popularidade diária por gênero na Páscoa
+
+De modo análogo, podemos notar que no feriado da páscoa o estilo mais consumido foi o Rock, de maneira acirrada e de certo modo, um empate técnico entre Rock e MPB.
+
 ![grafico10](imagens/grafico10.png)
 
 ### Popularidade diária por gênero no Halloween
+
+No dia 31 de outubro a música eletrônica predominou os serviços de streaming de música, é importante ressaltar que não houveram dados dos demais estilos musicais neste dia, o que indica certa preferência do público por música eletrônica neste período.
+
 ![grafico11](imagens/grafico11.png)
 
 ### Popularidade diária por gênero no Carnaval
+
+Veja que no carnaval, houve um aumento significativo da busca pela MPB e um declínio considerável na busca pelo Jazz. Ao término do dia 13, houve uma busca pelo Rock, o que indica que este estilo não é muito procurado nesta época. A música eletrônica se manteve no topo, porém apesar de seu crescimento de fato ocorrer, ele não foi tão expressivo quanto o crescimento da MPB.
+
 ![grafico12](imagens/grafico12.png)
 
 ### Horários de pico de reprodução
+
+Observa-se que o horário mais procurado pelos consumidores para ouvir música é as 22 horas. Um horário geralmente associado ao sono, o que revela uma tendência dos usuários ouvirem música antes de dormir, ou até mesmo para dormir.
+
 ![grafico13](imagens/grafico13.png)
 
 ### Frequência de gêneros para a faixa etária menores de 18 anos
+
+Perceba que o público muito jovem tem tendência a ouvir estilos como Hip-Hop, Pop e Música eletrônica, mas o Rock segue como uma quarta opção que de certo não é ignorada.
+
 ![grafico19](imagens/grafico19.png)
 
 ### Frequência de gêneros para a faixa etária 18-24 anos
+
+Veja que neste caso, a frequência já se altera, neste público jovem, o Pop e o Rock ocupam posições de destaque dentre os gêneros mais consumidos.
+
 ![grafico14](imagens/grafico14.png)
 
 ### Frequência de gêneros para a faixa etária 25-34 anos
+
+Nesta faixa etária, o Rock assume a grande posição de destaque, assumindo a liderança. Logo em sequência seguimos com o pop.
+
 ![grafico15](imagens/grafico15.png)
 
 ### Frequência de gêneros para a faixa etária 35-44 anos
+
+Neste público mais adulto, surge a MPB como grande força, o rock perde um pouco de sua força, mas ainda ocupa posição de destaque. É válido ressaltar como a MPB tem mais influência neste público mais velho.
+
 ![grafico16](imagens/grafico16.png)
 
 ### Frequência de gêneros para a faixa etária 45-54 anos
+
+Nesta faixa etária, há uma disputa formidável pela primeira colocação entre MPB e Jazz, o Rock surge como uma terceira opção.
+
 ![grafico17](imagens/grafico17.png)
 
 ### Frequência de gêneros para a faixa etária 55+ anos
