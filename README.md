@@ -56,7 +56,7 @@ Neste projeto, iremos analisar os dados encontrados em um arquivo csv que tratam
 ![grafico11](imagens/grafico11.png)
 
 ### Popularidade diária por gênero no Carnaval
-![grafico12](imagens/grafico11.png)
+![grafico12](imagens/grafico12.png)
 
 ### Horários de pico de reprodução
 ![grafico13](imagens/grafico13.png)
