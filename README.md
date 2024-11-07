@@ -296,7 +296,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ## Almir Sérgio - Códigos e repositório.
 
-![Almir](imagens/Screenshot_2024-11-06_23.33.12.png)
+![Almir]()
 
 ##### `Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 15 horas.`
 
@@ -304,7 +304,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ## Roberta Santos - Roteiro e gravação do vídeo.
 
-![Roberta](imagens/Screenshot_2024-11-06_23.29.21.png)
+![Roberta]()
 
 ### Relatório do trabalho:
 
