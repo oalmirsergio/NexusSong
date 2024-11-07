@@ -187,33 +187,63 @@ Este é o ápice de compartilhamento e quantidade de músicas em nosso estudo. A
 ![grafico25](imagens/grafico25.png)
 
 ### Gráfico de dispersão: Duração de 250 a 300 segundos
+
+Neste intervalo, no geral os índices são medianos, de modo aceitável, nem muito baixos, nem muito altos. Não é ruim, porém não é o melhor dos casos.
+
 ![grafico26](imagens/grafico26.png)
 
 ### Gráfico de dispersão: Duração de 300 a 350 segundos
+
+Note que a partir daqui haverá uma redução nos índices de compartilhamento, pois músicas mais longas possuem índice de popularidade mais baixo do que músicas um pouco mais curtas.
+
 ![grafico27](imagens/grafico27.png)
 
 ### Gráfico de dispersão: Duração de 350 a 400 segundos
+
+Como previsto, houve uma diminuição gigantesca.
+
 ![grafico28](imagens/grafico28.png)
 
 ### Gráfico de dispersão: Duração de 400 a 450 segundos
+
+Houve uma pequena quebra de expectativa, e o número de compartilhamentos cresceu, porém, nada alarmante.
+
 ![grafico29](imagens/grafico29.png)
 
 ### Gráfico de dispersão: Duração de 450 a 500 segundos
+
+O número de compartilhamentos é zero.
+
 ![grafico30](imagens/grafico30.png)
 
 ### Gráfico de dispersão: Duração de 500 a 550 segundos
+
+O número de compartilhamentos é zero, e há poucas músicas nesta duração que são ouvidas.
+
 ![grafico31](imagens/grafico31.png)
 
 ### Tendência de popularidade ao longo do tempo
+
+Este gráfico mostra a tendência de popularidade de músicas ao longo do tempo, medida pelo número de streams diários. Observa-se uma variação significativa no número de streams, sem uma tendência clara de aumento ou diminuição ao longo do ano. Os picos e vales indicam dias de popularidade variável, sugerindo que `a demanda por músicas flutua bastante sem um padrão sazonal evidente`.
+
 ![grafico32](imagens/grafico32.png)
 
 ### Plataformas mais utilizadas
+
+Este gráfico mostra o número de streams por tipo de plataforma, destacando as mais utilizadas. A plataforma Web lidera, com aproximadamente 600 streams, seguida pelo Desktop, com pouco mais de 500. Smart TV e Mobile aparecem com menores números, cerca de 400 streams cada uma. `Isso indica uma preferência dos usuários por acessos via Web e Desktop, possivelmente pela conveniência e qualidade de visualização, enquanto dispositivos móveis e Smart TVs têm uso menor`.
+
 ![grafico33](imagens/grafico33.png)
 
 ### Dispositivos mais utilizados
+
+Este gráfico representa o número de streams por tipo de dispositivo. `O Computador aparece como o dispositivo mais utilizado`, com pouco mais de 500 streams, enquanto Smartphone, Smart Speaker e Tablet têm números similares, em torno de 450 streams cada. A leve vantagem do "Computer" sugere uma preferência pelo uso desse dispositivo para streaming, embora os demais dispositivos também tenham uma presença significativa, indicando uma diversidade nos modos de acesso.
+
 ![grafico34](imagens/grafico34.png)
 
 ### Qualidade de streaming mais utilizada
+
+O gráfico mostra as qualidades de streaming mais utilizadas, onde `High é a mais frequente`, com aproximadamente 700 streams, seguida por "Medium" e "Low", com pouco mais de 500 streams cada. A qualidade "Ultra" é a menos usada, com cerca de 250 streams. Isso indica uma preferência por qualidade intermediária a alta, com menor adoção de qualidade ultra.
+
 ![grafico35](imagens/grafico35.png)
 
 ## Conclusões
@@ -241,7 +271,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 ### Membros do grupo e suas respectivas responsabilidades:
 
 Almir Sérgio - Códigos e repositório.
-##### Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 12 horas.
+##### Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 15 horas.
 
 Cecília Cristina - Relatório do projeto e edição do vídeo.
 
