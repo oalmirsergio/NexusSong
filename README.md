@@ -304,7 +304,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ## Roberta Santos - Roteiro e gravação do vídeo.
 
-![roberta](imagens/Screenshot_2024-11-06_23.29.21.png)
+![Roberta](imagens/Screenshot_2024-11-06_23.29.21.png)
 
 ### Relatório do trabalho:
 
