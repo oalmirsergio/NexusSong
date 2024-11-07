@@ -104,7 +104,7 @@ De modo análogo, podemos notar que `no feriado da páscoa o estilo mais consumi
 
 ### Popularidade diária por gênero no Carnaval
 
-`Veja que no carnaval, houve um aumento significativo da busca pela MPB` e um declínio considerável na busca pelo Jazz. Ao término do dia 13, houve uma busca pelo Rock, o que indica que este estilo não é muito procurado nesta época. A música eletrônica se manteve no topo, porém apesar de seu crescimento de fato ocorrer, ele não foi tão expressivo quanto o crescimento da MPB.
+`Veja que no carnaval, houve um aumento significativo da busca pela MPB` e um declínio considerável na busca pelo Jazz. Ao término do dia 13, houve uma busca pelo Rock, o que indica que este estilo não é muito procurado nesta época. `A música eletrônica se manteve no topo`, porém apesar de seu crescimento de fato ocorrer, ele não foi tão expressivo quanto o crescimento da MPB.
 
 ![grafico12](imagens/grafico12.png)
 
@@ -248,11 +248,35 @@ O gráfico mostra as qualidades de streaming mais utilizadas, onde `High é a ma
 
 ## Conclusões
 
+### Análise Geral
+
+Com as nossas análises, caso o foco de investimento seja estabilidade, recomendamos que o estilo musical focado seja o Rock. Este estilo musical possui popularidade de mediana para alta em todas as faixas etárias, sendo consumido por todos os públicos. Um gênero musical tentador por seu alto índice de compartilhamento e grande quantidade de ouvintes é a música eletrônica, caso o foco seja um gênero em alta e ascensão, apesar de não atingir todas as faixas etárias, recomendamos que o estilo musical foco seja a música eletrônica.
+
+Recomendamos que a duração das músicas seja em média de 200 à 250 segundos, pois como notamos em nossa análise, a maioria dos usuários ouve e compartilha músicas com esta duração média.
+
+Recomendamos que os seguintes gêneros musicais sejam foco nestas datas comemorativas:
+
+`- Natal: Jazz`
+
+`- Páscoa: Rock`
+
+`- Ano Novo: Rock`
+
+`- Halloween: Música Eletrônica`
+
+`- Carnaval: Música Eletrônica e MPB`
+
+É importante ressaltar que o horário de pico nas reproduções se encontra no intervalo das 17h até às 22h.
+
+Atentar-se para a plataforma e dispositivos é importante, celulares e computadores são os dispositivos mais utilizados, e a internet é o meio mais utilizado para ouvir as músicas.
+
 ### *Potencial de mercado*
+
+O mercado de streaming de músicas cresce muito, investir neste mercado que cresce bastante, se atentando ao mercado, as tendências, o potencial de crescimento é enorme, afinal, estamos tratando de um mercado promissor.
 
 ### *Retorno esperado*
 
-### *Investimento necessário*
+O retorno esperado é que suas músicas tenham um bom retorno de ouvintes, e diversos compartilhamentos, deste modo, prevê-se um bom lucro.
 
 ## Resultado geral
 
@@ -271,7 +295,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 ### Membros do grupo e suas respectivas responsabilidades:
 
 Almir Sérgio - Códigos e repositório.
-##### Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 15 horas.
+##### `Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 15 horas.`
 
 Cecília Cristina - Relatório do projeto e edição do vídeo.
 
