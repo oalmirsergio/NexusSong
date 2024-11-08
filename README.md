@@ -246,6 +246,12 @@ O gráfico mostra as qualidades de streaming mais utilizadas, onde `High é a ma
 
 ![grafico35](imagens/grafico35.png)
 
+### Planos mais utilizados
+
+O gráfico acima mostra a distribuição dos tipos de assinatura dos usuários na plataforma. Observa-se que a maioria dos usuários opta pelos planos Free e Premium, indicando uma preferência por opções gratuitas e de alto valor, respectivamente. O plano Family tem uma quantidade menor de usuários, possivelmente devido ao seu foco em grupos familiares, que podem representar uma porção menor do público-alvo. Essa análise ajuda a entender as preferências de assinatura e pode orientar estratégias de marketing para aumentar a adesão aos planos pagos.
+
+![grafico36](imagens/grafico36.png)
+
 ## Conclusões
 
 ### Análise Geral
