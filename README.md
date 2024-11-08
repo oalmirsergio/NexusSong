@@ -248,9 +248,16 @@ O gráfico mostra as qualidades de streaming mais utilizadas, onde `High é a ma
 
 ### Planos mais utilizados
 
-O gráfico acima mostra a distribuição dos tipos de assinatura dos usuários na plataforma. Observa-se que a maioria dos usuários opta pelos planos Free e Premium, indicando uma preferência por opções gratuitas e de alto valor, respectivamente. O plano Family tem uma quantidade menor de usuários, possivelmente devido ao seu foco em grupos familiares, que podem representar uma porção menor do público-alvo. Essa análise ajuda a entender as preferências de assinatura e pode orientar estratégias de marketing para aumentar a adesão aos planos pagos.
+O gráfico abaixo mostra a distribuição dos tipos de assinatura dos usuários na plataforma. Observa-se que a maioria dos usuários opta pelos planos Free e Premium, indicando uma preferência por opções gratuitas e de alto valor, respectivamente. O plano Family tem uma quantidade menor de usuários, possivelmente devido ao seu foco em grupos familiares, que podem representar uma porção menor do público-alvo. Essa análise ajuda a entender as preferências de assinatura e pode orientar estratégias de marketing para aumentar a adesão aos planos pagos.
 
 ![grafico36](imagens/grafico36.png)
+
+### Principais motivos para os usuários pularem as músicas
+
+
+O gráfico abaixo mostra os principais motivos pelos quais os usuários decidem pular músicas na plataforma. Entre os motivos mais comuns, destacam-se aqueles relacionados a preferências pessoais (como não gostar da música) e qualidade do áudio (quando a qualidade está abaixo do esperado). Esses insights podem ajudar a equipe a melhorar a experiência do usuário, seja ajustando as recomendações de música, seja investindo em melhorar a qualidade do áudio nas opções gratuitas e de assinatura.
+
+![grafico37](imagens/grafico37.png)
 
 ## Conclusões
 
@@ -275,6 +282,8 @@ Recomendamos que os seguintes gêneros musicais sejam foco nestas datas comemora
 É importante ressaltar que o horário de pico nas reproduções se encontra no intervalo das 17h até às 22h.
 
 Atentar-se para a plataforma e dispositivos é importante, celulares e computadores são os dispositivos mais utilizados, e a internet é o meio mais utilizado para ouvir as músicas.
+
+Os planos gratuito e premium são os mais utilizados, é importante dar um destaque maior à estes planos.
 
 ### *Potencial de mercado*
 
