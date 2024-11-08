@@ -306,6 +306,8 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ![Roberta](imagens/foto_roberta.png)
 
+## Geovanna Valentim - Roteiro e Relatório
+
 ### Relatório do trabalho:
 
 ## Este trabalho foi produzido pelo grupo NexusSong, e orientado pelos professores Edeilson Filho e Felipe Adeildo.
