@@ -308,6 +308,8 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ## Cecília Cristina - Relatório do projeto e edição do vídeo.
 
+![Cecilia](imagens/foto_cecilia.png)
+
 ## Roberta Santos - Roteiro e gravação do vídeo.
 
 ![Roberta](imagens/foto_roberta.png)
