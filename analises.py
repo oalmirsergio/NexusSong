@@ -201,6 +201,20 @@ def verificar_horarios():
 
     return plt.show()
 
+def planos_mais_usados():
+
+    # Contar a ocorrência de cada tipo de assinatura
+    subscription_counts = music['subscription_type'].value_counts()
+
+    # Plotar o gráfico de barras
+    plt.figure(figsize=(10, 6))
+    subscription_counts.plot(kind='bar', color='skyblue')
+    plt.title('Subscription Types Used by Users')
+    plt.xlabel('Subscription Type')
+    plt.ylabel('Number of Users')
+    plt.xticks(rotation=45)
+    return plt.show()
+
 # Analisando estilos mais populares por faixa etária:
 
 def faixa_etaria(idade):
