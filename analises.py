@@ -15,6 +15,10 @@ music_origin = pd.read_csv('/config/workspace/NexusSong-trabalho/NexusSong/Visua
 # Histograma de popularidade (share_count) por gênero
 
 def criar_hist():
+    """
+    Cria um histograma para mostrar a distribuição do número de compartilhamentos (share_count) por gênero musical.
+    A visualização inclui uma curva de densidade (KDE) e a distribuição é empilhada para diferentes gêneros.
+    """
     sns.set(style="whitegrid") # Configurações gerais para o estilo dos gráficos
     global music
     plt.figure(figsize=(12, 6))
@@ -27,6 +31,10 @@ def criar_hist():
 # Boxplot de popularidade (share_count) por gênero para identificar outliers
 
 def criar_boxplot():
+    """
+    Cria um boxplot para mostrar a distribuição de compartilhamentos (share_count) por gênero musical.
+    O boxplot ajuda a identificar possíveis outliers na quantidade de compartilhamentos.
+    """
     sns.set(style="whitegrid") # Configurações gerais para o estilo dos gráficos
     plt.figure(figsize=(12, 6))
     sns.boxplot(data=music, x='genre', y='share_count')
@@ -39,6 +47,10 @@ def criar_boxplot():
 
 # Gráfico de Barras: Distribuição de músicas por gênero
 def criar_barras_genero():
+    """
+    Cria um gráfico de barras para mostrar a distribuição de músicas por gênero.
+    O gráfico mostra quantas músicas existem em cada gênero.
+    """
     sns.set(style="whitegrid")
     global music
     plt.figure(figsize=(10, 6))
@@ -53,6 +65,10 @@ def criar_barras_genero():
 
 # Gráfico de Pizza: Distribuição percentual de músicas por gênero
 def criar_pizza():
+    """
+    Cria um gráfico de pizza para mostrar a distribuição percentual de músicas por gênero.
+    A pizza apresenta a proporção de cada gênero na totalidade das músicas.
+    """
     sns.set(style="whitegrid")
     genre_counts = music['genre'].value_counts()
     plt.figure(figsize=(8, 8))
@@ -64,6 +80,10 @@ def criar_pizza():
 # Analisando a popularidade de cada música por gênero
 
 def analisar_popularidade():
+    """
+    Analisa a popularidade de músicas por gênero com base na duração média dos streams.
+    O gráfico de barras exibe a média de duração dos streams para cada gênero musical.
+    """
     # Calcular a média de duração de streams por gênero
     genre_avg_streams = music.groupby('genre')['duration_seconds'].mean().sort_values(ascending=False)
     # Exibir o resultado
@@ -80,6 +100,10 @@ def analisar_popularidade():
 # Analisando as músicas de estilos muito ouvidos
 
 def analisar_outliers():
+    """
+    Identifica e exibe outliers na duração dos streams das músicas.
+    Outliers são definidos como valores que estão mais de 3 desvios padrão acima da média.
+    """
     # Calcular a média e o desvio padrão da duração dos streams
     mean_duration = music['duration_seconds'].mean()
     std_duration = music['duration_seconds'].std()
@@ -103,6 +127,10 @@ def analisar_outliers():
 # Analisando os estilos mais ouvidos mês a mês
 
 def analisar_sazolalidade_mes():
+    """
+    Analisa a popularidade de estilos musicais mês a mês, com base na duração média dos streams.
+    O gráfico de linhas exibe a variação da popularidade de cada gênero ao longo dos meses.
+    """
     global music
     # Converter a coluna de data para o formato datetime se necessário
     music['date'] = pd.to_datetime(music['date'])
@@ -145,6 +173,13 @@ carnaval_popularity = music[music['is_carnaval']].groupby('genre')['duration_sec
 
 
 def plot_holiday_popularity(data, holiday_column, month, holiday_name):
+    """
+    Cria um gráfico de linha para mostrar a popularidade diária dos gêneros durante um feriado específico.
+    O gráfico exibe a média de duração dos streams por dia para o mês e feriado fornecido.
+
+    ARGS -> data: DataFrame, holiday_column: str, month: int, holiday_name: str
+    Returns: gráfico de popularidade no feriado informado
+    """
     # Filtrar o DataFrame para o mês e feriado específicos
     holiday_data = data[data[holiday_column] & (data['date'].dt.month == month)]
     # Agrupar por dia e gênero e calcular a média de duração
@@ -172,7 +207,10 @@ def plot_holiday_popularity(data, holiday_column, month, holiday_name):
 # Analisando os horários mais utilizados:
 
 def verificar_horarios():
-
+    """
+    Cria um gráfico de barras que mostra a frequência de reproduções por hora do dia.
+    Inclui uma linha que indica a média da frequência de reprodução.
+    """
     # Extrair a coluna de horário e converter para o formato datetime se necessário
     music['time'] = pd.to_datetime(music['time'])
 
@@ -202,7 +240,10 @@ def verificar_horarios():
     return plt.show()
 
 def planos_mais_usados():
-
+    """
+    Função para gerar um gráfico de barras mostrando os tipos de assinatura mais utilizados.
+    Conta a ocorrência de cada tipo de assinatura no conjunto de dados 'subscription_type'.
+    """
     # Contar a ocorrência de cada tipo de assinatura
     subscription_counts = music['subscription_type'].value_counts()
 
@@ -216,6 +257,10 @@ def planos_mais_usados():
     return plt.show()
 
 def motivos_pular():
+    """
+    Função para gerar um gráfico de barras dos motivos mais comuns para pular músicas.
+    Conta a ocorrência de cada motivo de pular a música na coluna 'skip_reason'.
+    """
     # Contar a ocorrência de cada motivo de pular a música
     skip_reasons = music['skip_reason'].value_counts()
 
@@ -231,6 +276,15 @@ def motivos_pular():
 # Analisando estilos mais populares por faixa etária:
 
 def faixa_etaria(idade):
+    """
+    Função para classificar a faixa etária de um usuário baseado na sua idade.
+
+    ARGS:
+        idade (int): A idade do usuário.
+
+    Returns:
+        str: A faixa etária correspondente ao usuário.
+    """
     if idade < 18:
         return 'Menor de 18'
     elif idade <= 24:
@@ -280,6 +334,10 @@ subgeneros_populares_faixa = music.groupby(['faixa_etaria', 'subgenre']).agg({
 # criando gráficos:
 
 def barras_faixa_etaria():
+    """
+    Função para gerar gráficos de barras que mostram a frequência de gêneros de música
+    por faixa etária dos usuários.
+    """
     # Filtrar dados para análise da frequência dos gêneros por faixa etária
     genero_faixa_etaria = music.groupby(['faixa_etaria', 'genre']).size().reset_index(name='frequencia')
 
@@ -312,6 +370,10 @@ data_for_corr = music[['duration_seconds', 'liked', 'added_to_playlist', 'share_
 corr_matrix = data_for_corr.corr()
 
 def gerar_heatmap():
+    """
+    Função para gerar um heatmap da matriz de correlação entre variáveis relacionadas
+    ao comportamento de música, como 'duration_seconds', 'liked', 'added_to_playlist' e 'share_count'.
+    """
     # Plotar o heatmap da matriz de correlação
     plt.figure(figsize=(8, 6))
     sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', fmt=".2f")
@@ -320,6 +382,11 @@ def gerar_heatmap():
     return plt.show()
 
 def gerar_grafico_de_dispersao():
+    """
+    Função para gerar gráficos de dispersão para diferentes intervalos de duração de músicas,
+    mostrando a relação entre a duração da música e o número de compartilhamentos.
+    A função inclui linhas de tendência para cada gênero de música.
+    """
     # Definindo os intervalos de duração de 50 em 50 segundos
     intervals = [(i, i + 50) for i in range(0, 501, 50)]
     # Definindo uma paleta de cores para os gêneros
@@ -359,6 +426,10 @@ def gerar_grafico_de_dispersao():
 streams_over_time = music.groupby('date').size()
 
 def gerar_num_stream_datas():
+    """
+    Função para gerar um gráfico de linha que mostra a tendência de popularidade das músicas
+    ao longo do tempo, com base no número de streams por data.
+    """
     plt.figure(figsize=(15, 6))
     plt.plot(streams_over_time.index, streams_over_time.values, marker='o', color='b', linestyle='-')
     plt.title('Tendência de Popularidade ao Longo do Tempo')
@@ -373,6 +444,10 @@ def gerar_num_stream_datas():
 platform_counts = music['platform'].value_counts()
 
 def gerar_plataforma_mais_utilizadas():
+    """
+    Função para gerar um gráfico de barras mostrando as plataformas mais utilizadas pelos usuários
+    com base no número de streams.
+    """
     plt.figure(figsize=(10, 6))
     platform_counts.plot(kind='bar', color='skyblue')
     plt.title('Plataformas Mais Utilizadas')
@@ -387,6 +462,10 @@ def gerar_plataforma_mais_utilizadas():
 device_counts = music['preferred_device'].value_counts()
 
 def gerar_dispositivos_mais_utilizados():
+    """
+    Função para gerar um gráfico de barras mostrando os dispositivos mais utilizados pelos usuários
+    com base no número de streams.
+    """
     plt.figure(figsize=(10, 6))
     device_counts.plot(kind='bar', color='coral')
     plt.title('Dispositivos Mais Utilizados')
@@ -401,6 +480,10 @@ def gerar_dispositivos_mais_utilizados():
 quality_counts = music['stream_quality'].value_counts()
 
 def gerar_qualidade_mais_utilizada():
+    """
+    Função para gerar um gráfico de barras mostrando a qualidade de streaming mais utilizada pelos usuários
+    com base no número de streams.
+    """
     plt.figure(figsize=(10, 6))
     quality_counts.plot(kind='bar', color='lightgreen')
     plt.title('Qualidade de Streaming Mais Utilizada')
