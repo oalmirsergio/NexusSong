@@ -448,6 +448,7 @@ def gerar_plataforma_mais_utilizadas():
     Função para gerar um gráfico de barras mostrando as plataformas mais utilizadas pelos usuários
     com base no número de streams.
     """
+    # Configurando o gráfico
     plt.figure(figsize=(10, 6))
     platform_counts.plot(kind='bar', color='skyblue')
     plt.title('Plataformas Mais Utilizadas')
@@ -466,6 +467,7 @@ def gerar_dispositivos_mais_utilizados():
     Função para gerar um gráfico de barras mostrando os dispositivos mais utilizados pelos usuários
     com base no número de streams.
     """
+    # Configurando o gráfico
     plt.figure(figsize=(10, 6))
     device_counts.plot(kind='bar', color='coral')
     plt.title('Dispositivos Mais Utilizados')
@@ -484,6 +486,7 @@ def gerar_qualidade_mais_utilizada():
     Função para gerar um gráfico de barras mostrando a qualidade de streaming mais utilizada pelos usuários
     com base no número de streams.
     """
+    # Configurando o gráfico
     plt.figure(figsize=(10, 6))
     quality_counts.plot(kind='bar', color='lightgreen')
     plt.title('Qualidade de Streaming Mais Utilizada')
@@ -493,3 +496,5 @@ def gerar_qualidade_mais_utilizada():
     plt.tight_layout()
 
     return plt.show()
+
+# Fim das análises.
