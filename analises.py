@@ -215,6 +215,19 @@ def planos_mais_usados():
     plt.xticks(rotation=45)
     return plt.show()
 
+def motivos_pular():
+    # Contar a ocorrência de cada motivo de pular a música
+    skip_reasons = music['skip_reason'].value_counts()
+
+    # Plotar o gráfico de barras dos motivos para pular músicas
+    plt.figure(figsize=(10, 6))
+    skip_reasons.plot(kind='bar', color='salmon')
+    plt.title('Motivos pelos quais os usuários pulam músicas')
+    plt.xlabel('Motivo')
+    plt.ylabel('Número de Ocorrências')
+    plt.xticks(rotation=45)
+    plt.show()
+
 # Analisando estilos mais populares por faixa etária:
 
 def faixa_etaria(idade):
