@@ -328,6 +328,8 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ![Roberta](imagens/foto_roberta.png)
 
+##### `Sem dados.`
+
 ## Geovanna Valentim - Edição e organização do vídeo.
 
 ![Geovanna](imagens/foto_geovanna.png)
