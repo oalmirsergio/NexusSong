@@ -6,7 +6,7 @@ Este projeto foi realizado com fins acadêmicos na matéria de prática e pesqui
 Neste projeto, iremos analisar os dados encontrados em um arquivo csv que tratam dos dados de um streaming de música.
 
 
-## Objetivos
+## 💭 Objetivos
 
 Esta análise tem por objetivo identificar uma proposta de investimento promissora que gere lucros, através dos dados iremos verificar qual gênero musical e estilo mais popular atualmente.
 
@@ -20,7 +20,7 @@ Investir neste mercado ainda em ascensão é investir e garantir um espaço em u
 
 O lançamento de músicas sempre foi algo custoso, lançar músicas diretamente em serviços de streaming possui baixo custo em comparação ao lançamento de mídias físicas, o alcance dessas músicas é maior, conquistar patrocinadores se torna mais acessível pela maior visibilidade, e portanto a margem de lucro tende a ser maior.
 
-## Visão Geral
+## 🧑‍💼 Visão Geral
 
 ### *Possível investimento*
 
@@ -34,7 +34,7 @@ Alto potencial de mercado, pela alta visibilidade, baixo custo de investimento e
 
 A prióre o investimento necessário é apenas o custo de produção da faixa, a publicação na rede de streaming e a divulgação.
 
-## Dados Encontrados e análises
+## 📈 Dados Encontrados e análises
 
 ### Distribuição de compartilhamentos por gênero musical.
 
@@ -259,7 +259,7 @@ O gráfico abaixo mostra os principais motivos pelos quais os usuários decidem 
 
 ![grafico37](imagens/grafico37.png)
 
-## Conclusões
+## 📑 Conclusões
 
 ### Análise Geral
 
@@ -293,14 +293,14 @@ O mercado de streaming de músicas cresce muito, investir neste mercado que cres
 
 O retorno esperado é que suas músicas tenham um bom retorno de ouvintes, e diversos compartilhamentos, deste modo, prevê-se um bom lucro.
 
-## Resultado geral
+## 📚 Resultado geral
 
 ### Vídeo do projeto:
 
 ▶️ [NexusSong_conclusão_do_trabalho](https://youtu.be/XWEBN2v6ho4?si=l93wRReJTUiir7n1
 )
 
-## AGRADECIMENTOS
+## 🎖️ AGRADECIMENTOS
 
 Agradecemos aos professores Felipe Adeildo e Edeilson Filho pela oportunidade de trabalharmos com análise de dados.
 
@@ -308,7 +308,7 @@ Agradecemos aos criadores das bibliotecas python matplotlib, seaborn, numpy e pa
 
 Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de estudar tais conteúdos ainda no ensino médio. De certo que será muito valioso para nossa carreira profissional no futuro.
 
-##  Dados do trabalho
+## 📝 Dados do trabalho
 
 ### `Membros do grupo e suas respectivas responsabilidades:`
 
@@ -334,7 +334,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ##### `Foi feita a organização da ordem dos gráficos que seriam abordados no slide, o que levou aproximadamente uma hora. A edição do vídeo da apresentação também foi realizada, com um tempo dedicado de quatro horas, utilizando o CapCut para a edição.`
 
-### Relatório do trabalho:
+### 📊 Relatório do trabalho:
 
  📋 [Relatório_NexusSong](https://drive.google.com/file/d/1JcPD8u62Hf_WKp2inFPBYY5Lk8xhHv8o/view?usp=drivesdk
 )
