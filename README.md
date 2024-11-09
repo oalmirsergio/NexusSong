@@ -297,6 +297,9 @@ O retorno esperado é que suas músicas tenham um bom retorno de ouvintes, e div
 
 ### Vídeo do projeto:
 
+▶️ [NexusSong_conclusão_do_trabalho](https://youtu.be/XWEBN2v6ho4?si=l93wRReJTUiir7n1
+)
+
 ## AGRADECIMENTOS
 
 Agradecemos aos professores Felipe Adeildo e Edeilson Filho pela oportunidade de trabalharmos com análise de dados.
@@ -315,16 +318,25 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ##### `Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 15 horas.`
 
-## Cecília Cristina - Relatório do projeto e edição do vídeo.
+## Cecília Cristina - Relatório do projeto e gravação do vídeo.
 
 ![Cecilia](imagens/foto_cecilia.png)
 
-## Roberta Santos - Roteiro e gravação do vídeo.
+##### `Para fazer o relatório foi utilizado o aplicativo Word para que houvesse a formatação correta do arquivo, além disso ao realizar a gravação foi empregue o OBS para realizar a gravação da tela e da webcam. Se levado em consideração as pesquisas feitas para produção do relatório e as tentativas falhas na gravação do vídeo tal processo teve a duração de cerca de 5 horas.`
+
+## Roberta Santos - Roteiro e criação dos slides do vídeo.
 
 ![Roberta](imagens/foto_roberta.png)
 
-## Geovanna Valentim - Roteiro e Relatório
+## Geovanna Valentim - Edição e organização do vídeo.
+
+![Geovanna](imagens/foto_geovanna.png)
+
+##### `Foi feita a organização da ordem dos gráficos que seriam abordados no slide, o que levou aproximadamente uma hora. A edição do vídeo da apresentação também foi realizada, com um tempo dedicado de quatro horas, utilizando o CapCut para a edição.`
 
 ### Relatório do trabalho:
+
+ 📋 [Relatório_NexusSong](https://drive.google.com/file/d/1JcPD8u62Hf_WKp2inFPBYY5Lk8xhHv8o/view?usp=drivesdk
+)
 
 ## Este trabalho foi produzido pelo grupo NexusSong, e orientado pelos professores Edeilson Filho e Felipe Adeildo.
