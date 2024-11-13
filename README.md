@@ -318,7 +318,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ##### `Foram utilizadas as bibliotecas NumPy, Matplotlib, Seaborn, Pandas. A plataforma para códigos do NES, a plataforma google colab para a visualização dos gráficos como png, o repositório disponibilizado pelo professor Edeilson e este repositório. O tempo dedicado à este trabalho foi de aproximadamente 20 horas.`
 
-##### Email para contato: almirsergio.a@gmail.com
+###### Email para contato: almirsergio.a@gmail.com
 
 ## Cecília Cristina - Relatório do projeto e gravação do vídeo.
 
@@ -326,7 +326,7 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ##### `Para fazer o relatório foi utilizado o aplicativo Word para que houvesse a formatação correta do arquivo, além disso ao realizar a gravação foi empregue o OBS para realizar a gravação da tela e da webcam. Se levado em consideração as pesquisas feitas para produção do relatório e as tentativas falhas na gravação do vídeo tal processo teve a duração de cerca de 5 horas.`
 
-##### E-mail para contato: xuquixuquie@gmail.com
+###### E-mail para contato: xuquixuquie@gmail.com
 
 ## Roberta Santos - Roteiro, criação dos slides do vídeo e edição.
 
@@ -334,11 +334,15 @@ Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de e
 
 ##### `Sem dados.`
 
+###### Email para contato: sem dados.
+
 ## Geovanna Valentim - Edição e organização do vídeo.
 
 ![Geovanna](imagens/foto_geovanna.png)
 
 ##### `Foi feita a organização da ordem dos gráficos que seriam abordados no slide, o que levou aproximadamente uma hora. A edição do vídeo da apresentação também foi realizada, com um tempo dedicado de quatro horas, utilizando o CapCut para a edição.`
+
+###### Email para contato: geovannaalvesvalentim@gmail.com
 
 ### 📊 Relatório do trabalho:
 
