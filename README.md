@@ -306,7 +306,7 @@ Agradecemos aos professores Felipe Adeildo e Edeilson Filho pela oportunidade de
 
 Agradecemos aos criadores das bibliotecas python matplotlib, seaborn, numpy e pandas, sem o auxílio destes pacotes, este projeto não seria possível.
 
-Agradecemos aos professores  Felipe Adeildo e Edeilson Filho pelo repositório disponibilizado, este repositório que possibilitou nosso trabalho.
+Agradecemos ao professor Felipe Edeilson Filho pelo repositório disponibilizado, foi fundamental para o nosso trabalho.
 
 Em especial, agradecemos ao NES (Novo Ensino Suplementar) pela oportunidade de estudar tais conteúdos ainda no ensino médio. De certo que será muito valioso para nossa carreira profissional no futuro.
 
